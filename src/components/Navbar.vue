@@ -1,14 +1,16 @@
 <template>
   <div>
     <nav class="navbar navbar-expand  navbar-dark bg-dark fixed-top">
-      <div
+        <div class="top-profile">Takahiro's Profile</div>
+        <div
         class="collapse navbar-collapse justify-content-center custom-nav"
         id="navbarSupportedContent"
       >
         <div class="navbar-nav">
-          <a v-scroll-to="'#page1'">page1</a>
-          <a v-scroll-to="'#page2'">page2</a>
-          <a v-scroll-to="'#page3'">page3</a>
+            <a v-scroll-to="'#page1'">Profile</a>
+            <a v-scroll-to="'#page2'">Skills</a>
+            <a v-scroll-to="'#page3'">ideas</a>
+            <a v-scroll-to="'#page4'">contancts</a>
         </div>
       </div>
     </nav>
@@ -16,6 +18,9 @@
 </template>
 
 <style scoped>
+  .top-profile {
+    color: white;
+  }
   .navbar {
     height: 40px;
     filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.6));

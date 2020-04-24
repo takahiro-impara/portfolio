@@ -1,11 +1,12 @@
 <template>
-    <div class="page2" id="page2">
-        <h1>This is page2</h1>
-    </div>
+    <v-app>
+        <v-container id="page2">
+            <h1 class="under">Skills</h1>
+        </v-container>
+    </v-app>
 </template>
 <style scoped>
-    .page2 {
-        height: 1000px;
-        background-color: greenyellow;
+    .under {
+        border-bottom: solid 3px rgb(161, 235, 219);;
     }
 </style>
