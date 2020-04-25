@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueScrollTo from 'vue-scrollto'
 import vuetify from './plugins/vuetify';
+import '@fortawesome/fontawesome-free/css/all.css'
+
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
