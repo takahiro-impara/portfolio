@@ -5,6 +5,7 @@
     <page1 />
     <page2 />
     <page3 />
+    <contact />
     <Footer />
   </div>
 </template>
@@ -14,6 +15,7 @@
   import page1 from './views/page1.vue'
   import page2 from './views/page2.vue'
   import page3 from './views/page3.vue'
+  import contact from './views/contacts.vue'
   import Footer from './views/footer.vue'
   
   export default {
@@ -22,6 +24,7 @@
       page1,
       page2,
       page3,
+      contact,
       navbar,
       Footer
     }

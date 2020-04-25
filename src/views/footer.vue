@@ -8,7 +8,7 @@
         class="text-center"
         cols="12"
         >
-        {{ new Date().getFullYear() }} — <strong>Takahiro Koichi</strong>
+        {{ new Date().getFullYear() }}  Maintained by <strong>Takahiro Koichi</strong>
         </v-col>
     </v-footer>
     </v-card>

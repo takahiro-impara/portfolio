@@ -29,7 +29,8 @@ export default {
                 { title: 'Network', icon: 'mdi-lan', 'desc': '大規模L2網の設計'},
                 { title: 'Server', icon: 'mdi-server', 'desc': 'Quanta社製品のHW設計'},
                 { title: 'AI/ML', icon: 'mdi-brain', 'desc': 'SKlearnを用いたHW故障検知基盤の開発'},
-                { title: 'AWS', icon: 'mdi-aws', 'desc': '2020/03 SAP取得'},                
+                { title: 'AWS', icon: 'mdi-aws', 'desc': 'CodePipelineを利用した中規模バッチシステムの開発'},                
+                { title: 'Vue.js', icon: 'mdi-vuejs', 'desc': '本ポータルサイトの開発'},                
             ]
         }
     }

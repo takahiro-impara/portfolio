@@ -10,7 +10,7 @@
             <a v-scroll-to="'#page1'">Profile</a>
             <a v-scroll-to="'#page2'">Skills</a>
             <a v-scroll-to="'#page3'">ideas</a>
-            <a v-scroll-to="'#page4'">contacts</a>
+            <a v-scroll-to="'#page4'">Contacts</a>
         </div>
       </div>
     </nav>
