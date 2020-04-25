@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-expand  navbar-dark bg-dark fixed-top">
-        <div class="top-profile">Takahiro's Profile</div>
+        <div class="top-profile">Cloud Enginner / Infra, AWS, AI/ML</div>
         <div
         class="collapse navbar-collapse justify-content-center custom-nav"
         id="navbarSupportedContent"
@@ -10,7 +10,7 @@
             <a v-scroll-to="'#page1'">Profile</a>
             <a v-scroll-to="'#page2'">Skills</a>
             <a v-scroll-to="'#page3'">ideas</a>
-            <a v-scroll-to="'#page4'">contancts</a>
+            <a v-scroll-to="'#page4'">contacts</a>
         </div>
       </div>
     </nav>
